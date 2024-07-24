@@ -1,0 +1,19 @@
+.adminBody {
+    font-family:dubai;
+    background-image: url("./party.jpg");
+    background-size:cover ;
+    background-repeat: none;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  .adminNav {
+    background-color: rgba(245,245,245,0.5);
+    padding: 20px;
+  }

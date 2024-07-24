@@ -1,0 +1,51 @@
+.pBody{
+   
+    background-color: rgb(245,245,245);
+    font-family:dubai;
+    background-size:cover ;
+    background-repeat: none;
+    width: 100%;
+    height: 100vh;
+    justify-content: top;}
+
+.formHead{
+    font-size: 35px;
+    color:rgb(21, 37, 94);
+}
+
+.postForm{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.pInput{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.Pinput {
+    width: 360px;
+}
+
+.suggestions {
+    position: absolute;
+    background-color: rgba(245,245,245 , 0.5);
+    padding: 5px 3rem;
+    border: 1px black;
+    color: rgb(6,15, 46);
+}
+
+a {
+    text-decoration: none;
+
+  }

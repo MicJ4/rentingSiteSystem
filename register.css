@@ -1,0 +1,87 @@
+input {
+    border: none;
+    outline: 1px #ccc;
+    padding:5px;
+    margin: 2px;
+    width: 300px;
+    background-color: rgba(245,245,245,0.5);
+    border: solid 1px rgb(6,15,46);
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: rgb(6,15,46);
+    font-family: dubai;
+    font-style: italic;
+}
+
+.registrationBody{
+    background-image: url(party.jpg);
+    font-family:dubai;
+    background-size:cover ;
+    background-repeat: none;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    justify-content: center;
+}
+
+.regionsRegistration{
+    width:310px;
+    padding:5px;
+    outline:none;
+    margin: 2px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+select {
+    background-color: rgba(245,245,245,0.5);
+}
+
+option {
+    border: solid 1px rgb(6,15,46);
+}
+.rForm{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+    top:25%;
+    border-radius: 5px;
+    position: absolute;
+    color:rgb(6,15,46);
+    padding: 10px;
+    border: solid 1px #ccc;
+    background-color: rgba(245,245,245,0.7);
+    padding: 30px;
+}
+
+
+.contact{
+    font-style: italic;
+}
+
+.nextButton{
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgba(245,245,245,0.5);
+    border:1px solid white;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: end;
+    margin: 5px 20px 0px 0px;
+    
+}
+
+span {
+    margin: 10px 0px;
+}

@@ -1,0 +1,77 @@
+.sBody{
+    background-color: rgb(245, 245, 245);
+    font-family: verdana;
+}
+
+.head{
+    font-size: 45px;
+    color: rgb(21, 37, 94);
+}
+
+.sForm {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.sInput{
+    padding: 10px 25rem 10px 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#sButton {
+    padding-right: 30px;
+    margin-top: 5px;
+}
+
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: rgb(228, 55, 113);
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+}
+
+.suggestions {
+    position: absolute;
+    background-color: rgba(245,245,245 , 0.5);
+    padding: 5px 3rem;
+    border: 1px black;
+    color: rgb(6,15, 46);
+}
+
+.pInput {
+    padding: 10px 18rem 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.quickLinks{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+}
+
+a :hover {
+    scale: 1.2;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+}
+
